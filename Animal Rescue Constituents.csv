@@ -1,0 +1,40 @@
+id,name,category,degree,label
+rescue_shelter,Animal Rescue Shelters,Shelter,0,Entity
+spca,SPCA Organizations,Shelter,0,Entity
+humane_society,Humane Society,Shelter,0,Entity
+foster_network,Foster Care Networks,CommunityGroup,1,Entity
+adopters,Pet Adopters,Individual,1,Entity
+volunteers,Shelter Volunteers,Individual,1,Entity
+veterinarians,Veterinarians,Professional,1,Entity
+animal_control,Animal Control Services,Government,1,Entity
+pet_stores,Pet Stores,Corporation,1,Entity
+breeders,Pet Breeders,Business,1,Entity
+transport_orgs,Animal Transport Organizations,Nonprofit,2,Entity
+vet_clinics,Veterinary Clinics,Business,2,Entity
+pet_supply_companies,Pet Supply Companies,Corporation,2,Entity
+fundraising_platforms,Fundraising Platforms,Technology,2,Entity
+social_media,Social Media Platforms,Technology,2,Entity
+local_government,Local Government,Government,2,Entity
+state_government,State Government,Government,2,Entity
+animal_welfare_laws,Animal Welfare Laws,Policy,2,Entity
+microchip_companies,Microchip Companies,Technology,2,Entity
+pet_insurance,Pet Insurance Companies,Corporation,2,Entity
+federal_agencies,Federal Agencies (USDA/CDC),Government,3,Entity
+pharmaceutical_companies,Veterinary Pharmaceutical Companies,Corporation,3,Entity
+university_programs,Veterinary Universities,Education,3,Entity
+media_outlets,News Media Outlets,Media,3,Entity
+celebrity_advocates,Celebrity Animal Advocates,Individual,3,Entity
+corporate_sponsors,Corporate Sponsors,Corporation,3,Entity
+grant_foundations,Animal Welfare Foundations,Nonprofit,3,Entity
+rescue_software,Shelter Management Software,Technology,3,Entity
+pet_food_manufacturers,Pet Food Manufacturers,Corporation,4,Entity
+real_estate_market,Real Estate Market,Economic,4,Entity
+economic_conditions,Economic Conditions,Economic,4,Entity
+public_opinion,Public Opinion,Social,4,Entity
+cultural_trends,Cultural Trends,Social,4,Entity
+disaster_response,Emergency/Disaster Response,Government,4,Entity
+international_orgs,International Animal Welfare Orgs,Nonprofit,5,Entity
+research_institutions,Animal Behavior Research Institutions,Education,5,Entity
+policy_think_tanks,Policy Think Tanks,Nonprofit,5,Entity
+demographic_shifts,Demographic Shifts,Social,5,Entity
+climate_change,Climate Change Impact,Environmental,5,Entity
