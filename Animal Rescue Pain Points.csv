@@ -1,0 +1,50 @@
+id:ID,name:STRING,category:STRING,degree:INT,:LABEL
+rescue_shelter,Animal Rescue Shelters,Stakeholder,0,Entity
+spca,SPCA Organizations,Stakeholder,0,Entity
+humane_society,Humane Society,Stakeholder,0,Entity
+foster_network,Foster Care Networks,Stakeholder,1,Entity
+adopters,Pet Adopters,Stakeholder,1,Entity
+volunteers,Shelter Volunteers,Stakeholder,1,Entity
+veterinarians,Veterinarians,Stakeholder,1,Entity
+animal_control,Animal Control Services,Stakeholder,1,Entity
+pet_stores,Pet Stores,Stakeholder,1,Entity
+breeders,Pet Breeders,Stakeholder,1,Entity
+transport_orgs,Animal Transport Organizations,Stakeholder,2,Entity
+vet_clinics,Veterinary Clinics,Stakeholder,2,Entity
+pet_supply_companies,Pet Supply Companies,Stakeholder,2,Entity
+fundraising_platforms,Fundraising Platforms,SystemicFactor,2,Entity
+social_media,Social Media Platforms,SystemicFactor,2,Entity
+local_government,Local Government,SystemicFactor,2,Entity
+state_government,State Government,SystemicFactor,2,Entity
+animal_welfare_laws,Animal Welfare Laws,SystemicFactor,2,Entity
+microchip_companies,Microchip Companies,Stakeholder,2,Entity
+pet_insurance,Pet Insurance Companies,Stakeholder,2,Entity
+federal_agencies,Federal Agencies,SystemicFactor,3,Entity
+pharmaceutical_companies,Veterinary Pharmaceutical Companies,Stakeholder,3,Entity
+university_programs,Veterinary Universities,SystemicFactor,3,Entity
+media_outlets,News Media Outlets,SystemicFactor,3,Entity
+celebrity_advocates,Celebrity Animal Advocates,Stakeholder,3,Entity
+corporate_sponsors,Corporate Sponsors,Stakeholder,3,Entity
+grant_foundations,Animal Welfare Foundations,Stakeholder,3,Entity
+rescue_software,Shelter Management Software,SystemicFactor,3,Entity
+economic_conditions,Economic Conditions,SystemicFactor,4,Entity
+public_opinion,Public Opinion,SystemicFactor,4,Entity
+funding_shortage,Chronic Funding Shortage,PainPoint,1,PainPoint
+overcrowding,Shelter Overcrowding,PainPoint,1,PainPoint
+volunteer_burnout,Volunteer Burnout,PainPoint,1,PainPoint
+adoption_barriers,Complex Adoption Process,PainPoint,1,PainPoint
+medical_costs,High Veterinary Costs,PainPoint,1,PainPoint
+transport_coordination,Transport Coordination Difficulties,PainPoint,2,PainPoint
+regulatory_compliance,Regulatory Compliance Burden,PainPoint,2,PainPoint
+donor_fatigue,Donor Fatigue,PainPoint,2,PainPoint
+staff_shortage,Staff Shortage,PainPoint,2,PainPoint
+facility_limitations,Inadequate Facility Space,PainPoint,2,PainPoint
+public_misconceptions,Public Misconceptions About Rescue,PainPoint,3,PainPoint
+competition_pressure,Competition with Pet Stores,PainPoint,3,PainPoint
+seasonal_demand,Seasonal Adoption Fluctuations,PainPoint,3,PainPoint
+behavioral_issues,Animal Behavioral Issues,PainPoint,2,PainPoint
+foster_shortage,Foster Home Shortage,PainPoint,2,PainPoint
+technology_gaps,Outdated Technology Systems,PainPoint,3,PainPoint
+insurance_costs,Rising Insurance Costs,PainPoint,3,PainPoint
+supply_chain_issues,Pet Supply Chain Disruptions,PainPoint,4,PainPoint
+legal_liability,Legal Liability Concerns,PainPoint,3,PainPoint
