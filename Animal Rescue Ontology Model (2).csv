@@ -1,0 +1,30 @@
+id,name,category,degree,label
+rescue_shelter,Animal Rescue Shelters,Stakeholder,0,Entity
+spca,SPCA Organizations,Stakeholder,0,Entity
+humane_society,Humane Society,Stakeholder,0,Entity
+foster_network,Foster Care Networks,Stakeholder,1,Entity
+adopters,Pet Adopters,Stakeholder,1,Entity
+volunteers,Shelter Volunteers,Stakeholder,1,Entity
+veterinarians,Veterinarians,Stakeholder,1,Entity
+animal_control,Animal Control Services,Stakeholder,1,Entity
+pet_stores,Pet Stores,Stakeholder,1,Entity
+breeders,Pet Breeders,Stakeholder,1,Entity
+transport_orgs,Animal Transport Organizations,Stakeholder,2,Entity
+vet_clinics,Veterinary Clinics,Stakeholder,2,Entity
+pet_supply_companies,Pet Supply Companies,Stakeholder,2,Entity
+fundraising_platforms,Fundraising Platforms,SystemicFactor,2,Entity
+social_media,Social Media Platforms,SystemicFactor,2,Entity
+local_government,Local Government,SystemicFactor,2,Entity
+state_government,State Government,SystemicFactor,2,Entity
+animal_welfare_laws,Animal Welfare Laws,SystemicFactor,2,Entity
+microchip_companies,Microchip Companies,Stakeholder,2,Entity
+pet_insurance,Pet Insurance Companies,Stakeholder,2,Entity
+federal_agencies,Federal Agencies,SystemicFactor,3,Entity
+pharmaceutical_companies,Veterinary Pharmaceutical Companies,Stakeholder,3,Entity
+university_programs,Veterinary Universities,SystemicFactor,3,Entity
+media_outlets,News Media Outlets,SystemicFactor,3,Entity
+celebrity_advocates,Celebrity Animal Advocates,Stakeholder,3,Entity
+corporate_sponsors,Corporate Sponsors,Stakeholder,3,Entity
+grant_foundations,Animal Welfare Foundations,Stakeholder,3,Entity
+rescue_software,Shelter Management Software,SystemicFactor,3,Entity
+economic_conditions,Economic Conditions,SystemicFactor,4,Entity
