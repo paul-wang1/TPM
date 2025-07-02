@@ -1,0 +1,47 @@
+start_id,end_id,relationship_type,description
+animal_shelters,pet_adopters,transactional,Adoption process where adopters take animals home
+animal_shelters,financial_donors,dependency,Shelters rely on donor funding for operations
+animal_shelters,volunteer_networks,collaborative,Volunteers support daily operations and events
+animal_shelters,animal_transport_networks,transactional,Receive animal transport services
+animal_shelters,pet_supply_ecosystem,transactional,Purchase or receive donated supplies
+animal_shelters,government_oversight,regulatory,Subject to local/state regulations and inspections
+animal_shelters,digital_platforms,dependency,"Use platforms for adoptions, fundraising, records"
+animal_shelters,veterinary_services,dependency,Rely on vets for medical care
+animal_shelters,specialized_veterinary_services,dependency,Use spay/neuter or advanced care services
+animal_shelters,animal_behavior_specialists,dependency,Hire specialists to improve adoptability
+animal_shelters,microchip_registries,dependency,Register animals for identification
+foster_care_networks,animal_shelters,collaborative,Extend capacity via fostering partnerships
+foster_care_networks,pet_adopters,transactional,Adoption pipeline from foster homes
+animal_rescue_organizations,financial_donors,dependency,Depend on donations to operate
+animal_rescue_organizations,corporate_sponsors,dependency,Partner with businesses for funding
+animal_rescue_organizations,grant_foundations,dependency,Apply for and rely on grants
+animal_rescue_organizations,volunteer_networks,collaborative,Volunteers run and support programs
+animal_rescue_organizations,veterinary_services,dependency,Need vet care for rescues
+animal_rescue_organizations,animal_behavior_specialists,dependency,Use specialists for behavioral issues
+animal_rescue_organizations,digital_platforms,dependency,Rely on platforms for outreach and funding
+pet_adopters,insurance_providers,transactional,Buy insurance to manage pet risks
+pet_adopters,pet_supply_ecosystem,transactional,"Purchase pet food, toys, equipment"
+pet_adopters,digital_platforms,dependency,Discover pets via adoption platforms
+pet_adopters,social_media_influence,influence,Social media influences adoption choices
+pet_adopters,cultural_attitudes,influence,Culture shapes desire to adopt
+pet_adopters,housing_market_conditions,dependency,Rental rules impact adoption feasibility
+animal_control_agencies,animal_shelters,regulatory,Deliver strays and enforce regulations
+animal_control_agencies,animal_rescue_organizations,regulatory,Coordinate on seizure or neglect cases
+veterinary_services,specialized_veterinary_services,collaborative,Refer or outsource advanced care
+veterinary_services,digital_platforms,dependency,"Use platforms for scheduling, records"
+pet_supply_ecosystem,animal_shelters,dependency,Shelters buy or receive supplies
+pet_supply_ecosystem,animal_rescue_organizations,dependency,Rescues buy or receive supplies
+digital_platforms,social_media_influence,collaborative,Platforms amplify rescue marketing
+digital_platforms,digital_platforms,dependency,"Integrate multiple systems: fundraising, adoption, records"
+government_oversight,animal_control_agencies,oversight,Set mandates and budgets
+government_oversight,animal_shelters,oversight,Fund and regulate operations
+government_oversight,animal_rescue_organizations,oversight,Impose standards and reporting
+government_oversight,legal_framework,dependency,Enforce animal welfare law
+grant_foundations,animal_rescue_organizations,transactional,Provide structured funding
+corporate_sponsors,animal_rescue_organizations,transactional,Support rescues via donations or campaigns
+financial_donors,animal_rescue_organizations,transactional,Direct donations enable rescue operations
+international_rescue_networks,animal_transport_networks,collaborative,Coordinate cross-border transport
+emergency_response_teams,animal_shelters,collaborative,Provide crisis response services
+research_institutions,animal_shelters,collaborative,"Study shelter operations, provide data"
+welfare_organizations,government_oversight,advocacy,Advocate for policies and standards
+underground_networks,animal_rescue_organizations,informal_support,Handle crises outside formal channels
